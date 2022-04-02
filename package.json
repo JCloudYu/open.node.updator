@@ -1,0 +1,17 @@
+{
+	"name": "updator",
+	"version": "0.9.0",
+	"description": "An tiny updator",
+	"main": "./_dist/updator.js",
+	"scripts": {
+		"prebuild": "rm -rf _dist",
+		"build": "tsc",
+
+		"test": "node _dist/tests/test.js"
+	},
+	"author": "JCloudYu",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^17.0.23"
+	}
+}
